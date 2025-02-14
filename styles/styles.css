@@ -83,6 +83,8 @@ body {
   font-weight: 600;
   font-size: 0.8rem;
   color: hsl(14, 65%, 9%);
+  cursor: pointer;
+  transition: 100ms ease-in-out;
 }
 
 .add-to-cart-button:hover {
@@ -113,6 +115,8 @@ body {
   height: 0.5rem;
   width: 0.5rem;
   padding: 0.25rem;
+  cursor: pointer;
+  transition: 100ms ease-in-out;
 }
 
 .remove-button:hover, .add-button:hover {
@@ -181,6 +185,8 @@ body {
   padding-block: 1rem;
   margin-top: 1rem;
   width: 100%;
+  cursor: pointer;
+  transition: 100ms ease-in-out;
 }
 
 .confirm-order:hover {
@@ -259,6 +265,8 @@ body {
   padding-block: 1rem;
   margin-top: 1rem;
   width: 100%;
+  cursor: pointer;
+  transition: 100ms ease-in-out;
 }
 
 .new-order:hover {

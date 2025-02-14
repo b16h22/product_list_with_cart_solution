@@ -371,5 +371,7 @@ function populateLayout(dessertData) {
     dessertImages.forEach((element) => {element.style.outline = "none"})
     addToCartButton.forEach((button) => {button.style.display = "block"})
     quantityButton.forEach((button) => {button.style.display = "none"})
+    
+    location.reload();
   }
 }
