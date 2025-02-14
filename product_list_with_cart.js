@@ -56,7 +56,7 @@ function populateLayout(dessertData) {
   
     dessertItem.innerHTML =
     `<div class="dessert-image-div">
-      <img class="dessert-image" src="${item.image.desktop}">
+      <img class="dessert-image" src="${item.image.desktop}" alt="${item.name}">
       <div class="bottom-button">
         <button class="add-to-cart-button"><img class="cart-icon" src="./assets/images/icon-add-to-cart.svg" alt="cart icon">Add to Cart</button>
         <button class="quantity-button">
